@@ -10,6 +10,7 @@
    docs/1.getting_ready.md
    docs/2.quick_user_experience.md
    docs/general_basic_courses.md
+   docs/6.remote.md
    docs/8.ai_vision_games_lesson.md
    docs/9.upper_computer_action_editing_course.md
    docs/10.pc_control_course.md
