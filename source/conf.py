@@ -10,6 +10,7 @@ project = 'TonyPi'
 copyright = '2024, Hiwonder'
 author = 'Hiwonder'
 release = 'v1.0'
+tocdepth = 2  # 设置目录深度为2
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
