@@ -15,3 +15,4 @@
    docs/9.upper_computer_action_editing_course.md
    docs/10.pc_control_course.md
    docs/11.voice_interaction_and_intelligent_handling_course.md
+   docs/12.resources_download.md
