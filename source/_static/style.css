@@ -49,7 +49,7 @@ div[itemprop="articleBody"] > section > section{
     border-left: 1px solid #e1e4e5;
 }
 
-.rst-content .section ul li, .rst-content .toctree-wrapper ul li, .rst-content section ul li, .wy-plain-list-disc li, article ul li{
+.rst-content .section ul li, .rst-content section ul li, .wy-plain-list-disc li, article ul li{
     margin-left: 0px;
     list-style: none;
 }
