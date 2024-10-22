@@ -50,5 +50,11 @@ div[itemprop="articleBody"] > section > section{
 }
 
 .rst-content .section ul li, .rst-content .toctree-wrapper ul li, .rst-content section ul li, .wy-plain-list-disc li, article ul li{
-    margin-left: 18px
+    margin-left: 0px;
+    list-style: none;
+}
+
+.rst-content section ul.simple li{
+    margin-left: 24px;
+    list-style: disc;
 }

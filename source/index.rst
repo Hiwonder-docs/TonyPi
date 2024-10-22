@@ -6,7 +6,6 @@
 .. toctree::
    :maxdepth: 2
    :caption: TonyPi
-   :github_url: https://github.com/Hiwonder-docs/TonyPi
 
    docs/1.getting_ready.md
    docs/2.quick_user_experience.md
