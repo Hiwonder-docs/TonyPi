@@ -27,7 +27,7 @@ Using t**he Android system** as an example, these instructions also apply to iOS
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image2.png" style="width:700px"/>
 
 :::{Note}
-If you prefer to connect in LAN mode, refer to [1.3 Connecting in LAN Mode (optional)]().
+If you prefer to connect in LAN mode, refer to [1.3 Connecting in LAN Mode (optional)](#anchor_1_3).
 :::
 
 (3) Tap **"Connect to Device Hotspot"**. This will take you to your phone's settings to connect to the hotspot created by the robot.
