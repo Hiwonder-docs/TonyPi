@@ -3,17 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+============
+TonyPi
+============
+
 .. toctree::
    :maxdepth: 2
    :caption: TonyPi
 
    docs/1.getting_ready.md
    docs/2.quick_user_experience.md
-   docs/general_basic_courses.md
    docs/6.remote.md
    docs/8.ai_vision_games_lesson.md
    docs/9.upper_computer_action_editing_course.md
    docs/10.pc_control_course.md
    docs/11.voice_interaction_and_intelligent_handling_course.md
-   树莓派机器人网络配置课程 <https://docs.hiwonder.com/projects/MasterPi/en/latest/docs/11_network_configuration.html>
-   docs/12.resources_download.md
+   docs/13_network_configuration.md
+   docs/resources_download.md
