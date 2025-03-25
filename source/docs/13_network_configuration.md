@@ -18,11 +18,11 @@ By default, the robot operates in AP (direct connection) mode. The features and 
 
 Using t**he Android system** as an example, these instructions also apply to iOS.
 
-(1) Open the "WonderPi" app on your phone. Then, go to "Basic" and select "MasterPi".
+(1) Open the "**WonderPi**" app on your phone. Then, go to "**Basic**" and select "**MasterPi**".
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image1.png" style="width:700px" />
 
-(2)  Tap the "+" button in the bottom right corner of the screen, and choose **"Direct Connection Mode".**
+(2)  Tap the "**+**" button in the bottom right corner of the screen, and choose **"Direct Connection Mode".**
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image2.png" style="width:700px"/>
 
@@ -34,7 +34,7 @@ If you prefer to connect in LAN mode, refer to [1.3 Connecting in LAN Mode (opti
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image3.png" style="width:700px" />
 
-(4) Look for a hotspot name starting with "HW". The password is "hiwonder".
+(4) Look for a hotspot name starting with "**HW**". The password is "**hiwonder**".
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image4.png" style="width:350px" />
 
@@ -47,10 +47,10 @@ for iOS: Wait until the Wi-Fi icon<img src="../_static/media/11.network_configur
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image7.png" style="width:700px" />
 
 :::{Note}
-If a pop-up message appears saying "Network Unavailable, Continue Connection?", simply tap "Keep Connection".
+If a pop-up message appears saying "**Network Unavailable, Continue Connection?**", simply tap "**Keep Connection**".
 :::
 
-(6) If you see a prompt asking **"Switch to and Enter Found Device Screen?",** it indicates that an incorrect product version was selected in Step 1. Tap "OK" to switch directly to the correct version's mode selection screen.
+(6) If you see a prompt asking **"Switch to and Enter Found Device Screen?",** it indicates that an incorrect product version was selected in Step 1. Tap "**OK**" to switch directly to the correct version's mode selection screen.
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image8.png" style="width:350px" />
 
@@ -66,7 +66,7 @@ For details on each mode, refer to the documentation provided earlier.
 
 (1) Power on the robot and connect it to the remote control software, VNC.
 
-(2) Double-click the terminal icon<img src="../_static/media/11.network_configuration/section_1/image10.png" style="width:40px" /> on the desktop to open the command line terminal.
+(2) Double-click the terminal icon <img src="../_static/media/11.network_configuration/section_1/image10.png" style="width:40px" /> on the desktop to open the command line terminal.
 
 (3) Enter the command and press Enter to navigate to the configuration file directory.
 
@@ -98,7 +98,7 @@ The configuration file defaults to AP Direct Connection Mode. If all code lines 
 vim wifi.py
 ```
 
-(8) After confirming the entries, press the ESC key, then type ":wq" to save and exit the file.
+(8) After confirming the entries, press the ESC key, then type "**:wq**" to save and exit the file.
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image17.png" style="width:700px" />
 
@@ -114,7 +114,7 @@ sudo systemctl restart hw_wifi.service
 
 <img src="../_static/media/11.network_configuration/section_1/image20.png" style="width:200px" class="common_img" />
 
-(12) To connect using VNC, enter the new IP address in the search bar, and click on the connection icon that appears. Log in with the username "pi" and password "raspberry", then click"OK"to access the system desktop. (For the Pi5 version, the username is the same as the 4B version, but the password is **"raspberrypi"**.)
+(12) To connect using VNC, enter the new IP address in the search bar, and click on the connection icon that appears. Log in with the username "**pi**" and password "**raspberry**", then click "**OK**" to access the system desktop. (For the Pi5 version, the username is the same as the 4B version, but the password is **"raspberrypi"**.)
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image21.png" style="width:500px" />
 
@@ -125,13 +125,12 @@ sudo systemctl restart hw_wifi.service
 ## 8.3 Connecting in LAN Mode (optional)
 
 :::{Note}
-
 * To configure the LAN mode using a smartphone, you must first enable the phone's location services.
 
 * Switching to LAN mode cannot be done directly through the system's network settings, as the Wi-Fi has custom configurations. Please follow the instructions in Section 1.3.2 to switch modes using the network configuration file.
-  :::
+:::
 
-**8.3.1 Switching via the Mobile App**
+### 8.3.1 Switching via the Mobile App
 
 :::{Note}
 For LAN mode, please enable location services on your smartphone.
@@ -153,11 +152,11 @@ For LAN mode, please enable location services on your smartphone.
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image25.png" style="width:700px" />
 
-(5) Tap "Connect to Device Hotspot".
+(5) Tap "**Connect to Device Hotspot**".
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image26.png" style="width:700px" />
 
-(6) Your phone will automatically navigate to the Wi-Fi settings page. Find the hotspot starting with "HW" and enter the password **"hiwonder"**. Once connected, tap the "Return" button.
+(6) Your phone will automatically navigate to the Wi-Fi settings page. Find the hotspot starting with "**HW**" and enter the password **"hiwonder"**. Once connected, tap the "Return" button.
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image27.png" style="width:350px" />
 
@@ -177,7 +176,7 @@ For LAN mode, please enable location services on your smartphone.
 
 (11) To switch back to direct connection mode from LAN mode, press and hold the KEY1 button on the expansion board until the blue LED flashes, indicating that the switch is complete.
 
-**8.3.2 Switching via Network Configuration File**
+### 8.3.2 Switching via Network Configuration File
 
 (1) Power on the robot and connect it to the remote control software, NoMachine.
 
