@@ -14,7 +14,7 @@ By default, the robot operates in AP (direct connection) mode. The features and 
 
 ## 8.2 AP Direct Connection Mode
 
-**8.2.1 Mode Switching through Phone**
+### 8.2.1 Mode Switching through Phone
 
 Using t**he Android system** as an example, these instructions also apply to iOS.
 
@@ -62,7 +62,7 @@ For details on each mode, refer to the documentation provided earlier.
 
 <p id="anchor_1_2_2"></p>
 
-**8.2.2 Switching via Network Configuration File**
+### 8.2.2 Switching via Network Configuration File
 
 (1) Power on the robot and connect it to the remote control software, VNC.
 
@@ -169,8 +169,6 @@ For LAN mode, please enable location services on your smartphone.
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image7.png" style="width:700px" />
 
 (9) Press and hold the robot icon in the app to view the robot's assigned IP address and device ID.
-
-<img class="common_img" src="../_static/media/11.network_configuration/section_1/image30.png" style="width:700px" />
 
 (10) Use a remote desktop tool to search for the robot's IP address and connect to the remote desktop.
 
