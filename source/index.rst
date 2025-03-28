@@ -14,9 +14,9 @@ TonyPi
    docs/1.getting_ready.md
    docs/2.quick_user_experience.md
    docs/6.remote.md
-   docs/8.ai_vision_games_lesson.md
    docs/9.upper_computer_action_editing_course.md
-   docs/10.pc_control_course.md
+   docs/8.ai_vision_games_lesson.md
    docs/11.voice_interaction_and_intelligent_handling_course.md
+   docs/10.pc_control_course.md
    docs/13_network_configuration.md
    docs/resources_download.md
