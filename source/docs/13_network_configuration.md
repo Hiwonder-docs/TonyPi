@@ -39,7 +39,7 @@ If you prefer to connect in LAN mode, refer to [1.3 Connecting in LAN Mode (opti
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image4.png" style="width:350px" />
 
 :::{Note}
-for iOS: Wait until the Wi-Fi icon<img src="../_static/media/11.network_configuration/section_1/image5.png" style="width:40px" />appears in your phone's status bar before returning to the app. If you don't see the device listed, you can refresh by tapping the refresh icon<img src="../_static/media/11.network_configuration/section_1/image6.png" style="width:50px" />in the upper-right corner of the app.
+for iOS: Wait until the Wi-Fi icon <img src="../_static/media/11.network_configuration/section_1/image5.png" style="width:40px" /> appears in your phone's status bar before returning to the app. If you don't see the device listed, you can refresh by tapping the refresh icon <img src="../_static/media/11.network_configuration/section_1/image6.png" style="width:50px" /> in the upper-right corner of the app.
 :::
 
 (5) Return to the app, and tap the robot icon to enter the mode selection screen.
@@ -126,7 +126,6 @@ sudo systemctl restart hw_wifi.service
 
 :::{Note}
 * To configure the LAN mode using a smartphone, you must first enable the phone's location services.
-
 * Switching to LAN mode cannot be done directly through the system's network settings, as the Wi-Fi has custom configurations. Please follow the instructions in Section 1.3.2 to switch modes using the network configuration file.
 :::
 
@@ -140,15 +139,15 @@ For LAN mode, please enable location services on your smartphone.
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image23.png" style="width:350px" />
 
-(2) Open the "WonderPi" app on your phone, then select **"Basic"** and "MasterPi".
+(2) Open the "**WonderPi**" app on your phone, then select **"Basic"** and "**MasterPi**".
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image1.png" style="width:700px" />
 
-(3) Tap the "+" button in the bottom right corner, and choose **"LAN Mode".**
+(3) Tap the "**+**" button in the bottom right corner, and choose **"LAN Mode".**
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image24.png" style="width:700px" />
 
-(4) The app will prompt you to enter the password for the connected Wi-Fi network. (Please ensure the password is correct, as an incorrect password will result in connection failure.) After entering the password, tap "OK".
+(4) The app will prompt you to enter the password for the connected Wi-Fi network. (Please ensure the password is correct, as an incorrect password will result in connection failure.) After entering the password, tap "**OK**".
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image25.png" style="width:700px" />
 
@@ -156,7 +155,7 @@ For LAN mode, please enable location services on your smartphone.
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image26.png" style="width:700px" />
 
-(6) Your phone will automatically navigate to the Wi-Fi settings page. Find the hotspot starting with "**HW**" and enter the password **"hiwonder"**. Once connected, tap the "Return" button.
+(6) Your phone will automatically navigate to the Wi-Fi settings page. Find the hotspot starting with "**HW**" and enter the password **"hiwonder"**. Once connected, tap the "**Return**" button.
 
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image27.png" style="width:350px" />
 
@@ -192,7 +191,7 @@ cd hiwonder-toolbox
 vim wifi_conf.py
 ```
 
-(5) First, change the value of "HW_WIFI_MODE" to 2:
+(5) First, change the value of "**HW_WIFI_MODE**" to 2:
 
 ① 1 represents Direct Connection Mode
 
