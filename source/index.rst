@@ -20,3 +20,4 @@ TonyPi
    docs/10.pc_control_course.md
    docs/13_network_configuration.md
    docs/resources_download.md
+   Download <https://drive.google.com/drive/folders/1Yo69FSOeFzGTlrr88d8FpKwNurD5-W56?usp=sharing>
